@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.footer--body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 340px;
+    background: #E84A5F;
+    
+}
+
+
+
+.footer--links{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    background: #2A363B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer--team{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 4px 4px 4px;
+    width: 100%;
+    min-height: 80px;
+    border-bottom: 2px solid #fff;
+    flex-grow: 1;
+    margin-bottom: 4px;
+}
+.footer--icon{
+    width: 100%;
+    position: relative;
+    display: block;
+    line-height: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
+.footer--team .footer-teammember{
+    width: 100%;
+    display: flex;
+    position: relative;
+    display: block;
+    line-height: 10px;
+    text-align: center;
+    color: #fff;
+}
+.footer--smallicon{
+    transition: 0.5s;
+    line-height: 10px;
+    font-size: 1.5em;
+    color: rgba(255,255,255,0.5);
+}
+.footer--team a:hover .footer--smallicon{
+    color: #fff;
+}
+.footer--text{
+    transition: 0.5s;
+    font-weight: 100;
+    font-size: 0.6em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.10em;
+    opacity: 0.5;
+    letter-spacing: 0.05em;
+}
+.footer--team a:hover .footer--text{
+    opacity: 1;
+    font-size: .7em;
+    letter-spacing: 1px;
+}
+.footer--team a {
+    margin: 6px 6px 6px;
+}
+.footer--team a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+.footer--links2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    min-height: 100px;
+    background: #2A363B;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 10px;
+}
+.footer--col{
+    min-width: 300px; 
+    height: auto;
+    margin-top: 10px;    
+    padding-bottom: 20px;
+}
+.footer--links2 .footer--col > h3 > span{
+    transition: 0.5s;
+}
+.footer--links2 .footer--col:hover h3 > span{
+    color: #E84A5F;
+} 
+.footer--links2 .footer--col:hover ul > li > a{
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: #FFF;
+} 
+.footer--col > h3{
+    color: #FFF;
+    font-size: 25px;
+}
+.footer--col > ul{
+    list-style-type: none;
+    margin-top: 15px;
+    margin-left: 2.4px;
+    border-left: 2px solid rgba(255,255,255,0.5);
+}
+.footer--col > ul > li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer--col > ul > li > a{
+    transition: 0.5s;
+    text-decoration: none;
+    padding-left: 10px;
+    color: rgba(255,255,255,0.5);
+}

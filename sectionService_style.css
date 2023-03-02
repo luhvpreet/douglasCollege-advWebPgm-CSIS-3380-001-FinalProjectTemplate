@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sectionService--body{
+    background: #4c5559;
+    min-height: 100vh;
+    padding: 30px 10% 10px;
+    border-bottom: 8px solid #FECEA8;
+}
+
+.sectionService--mainText{
+    padding-top: 10px;
+    text-align: center;
+}
+.sectionService--mainText > h2{
+    color: #FECEA8;
+    transition: 0.5s;
+    text-align: left;
+    font-size: 5vw;
+    border-bottom: 4px solid white;
+}
+.sectionService--mainText > h2:hover{
+    letter-spacing: .01em;
+}
+.sectionService--mainText h2 span{
+    color: #99B898;
+}
+.sectionService--mainText p{
+    color: #99B898;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: 4px solid white;
+}

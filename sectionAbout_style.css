@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sectionAbout--body{
+    background: #4c5559;
+    min-height: 100vh;
+    padding: 30px 10% 10px;
+    border-bottom: 8px solid #FECEA8;
+}
+
+.sectionAbout--mainText{
+    padding-top: 10px;
+    text-align: center;
+}
+.sectionAbout--mainText > h2{
+    color: #FECEA8;
+    transition: 0.5s;
+    text-align: left;
+    font-size: 5vw;
+    border-bottom: 4px solid white;
+}
+.sectionAbout--mainText > h2:hover{
+    letter-spacing: .01em;
+}
+.sectionAbout--mainText h2 span{
+    color: #99B898;
+}
+.sectionAbout--mainText p{
+    color: #99B898;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: 4px solid white;
+}
+
+.sectionAbout--teamContent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+
+.sectionAbout--boxContent{
+    background: #99B898;
+    padding: 35px 45px;
+    transition: 0.5s;
+}
+.sectionAbout--boxContent:hover{
+    border-radius: 60px 0px 30px 0px;
+}
+
+.sectionAbout--iconContent{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.sectionAbout--boxContent > h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.sectionAbout--boxContent > p{
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+.sectionAbout--links{
+    display: inline-block;
+    padding: 8px 18px;
+    background: #333333;
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFF;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.sectionAbout--boxContent a{
+    transition: .5s;
+}
+
+.sectionAbout--boxContent:hover a{
+    border-radius: 10px;
+}
+.sectionAbout--boxContent a:hover {
+    background: #333333;
+    color: #99B898;
+    letter-spacing: 4px;
+}
